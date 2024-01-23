@@ -1,0 +1,22 @@
+.navbar-outer{
+    /* background-color: rgb(31, 34, 87); */
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2vh solid black;
+}
+.link-tag{
+    text-decoration: none;
+}
+.navbar-field{
+    color: rgb(0, 0, 0);
+    font-size: 15pt;
+    margin: 0;
+}
+.logo{
+    font-size: 30pt;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
