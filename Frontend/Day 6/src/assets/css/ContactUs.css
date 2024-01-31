@@ -1,0 +1,38 @@
+.contact-us-outer{
+    height: auto;
+    width: 100%;
+}
+.contact-us-page-1{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17pt;
+}
+.contact-us-page-1-container-1{
+    height: 20vh;
+    width: 80%;
+}
+.contact-us-page-1-container-2{
+    height: 50vh;
+    width: 80%;
+}
+.contact-us-page-2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17pt;
+}
+.contact-us-page-2-container-1{
+    height: 20vh;
+    width: 80%;
+}
+.contact-us-page-2-container-2{
+    height: 50vh;
+    width: 80%;
+}

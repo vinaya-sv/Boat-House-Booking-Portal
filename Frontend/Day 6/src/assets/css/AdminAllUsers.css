@@ -1,0 +1,68 @@
+.admin-all-users-outer{
+    height: 90vh;
+    width: 94%;
+    box-sizing: border-box;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: hidden;
+}
+.admin-all-users-left{
+    width: 60%;
+    height: 90vh;
+    background-color: white;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.admin-all-users-right{
+    width: 35%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: white; */
+}
+.admin-all-users-chart{
+    height: 43vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.admin-all-users-chart-label{
+    margin-top: 2vh;
+}
+.admin-all-users-user{
+    background-color: rgba(0,0,0,0);
+}
+.admin-all-users-user{
+    height: 7vh;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15pt;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+.admin-all-users-user:hover{
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.admin-all-users-filter{
+    float: right;
+}

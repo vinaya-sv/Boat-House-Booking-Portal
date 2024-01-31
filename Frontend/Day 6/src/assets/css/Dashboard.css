@@ -1,0 +1,32 @@
+.dashboard-outer{
+    height: 88vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.dashboard-left{
+    height: 80vh;
+    width: 22%;
+    /* background-color: grey; */
+    padding: 5vh;
+    box-sizing: border-box;
+    border-right: 2px solid black;
+}
+.dashboard-right{
+    height: 80vh;
+    width: 70%;
+    /* background-color: rgb(218, 218, 218); */
+}
+.dashboard-left-contents{
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    margin-bottom: 2vh;
+    transition: 0.5s;
+}
+.dashboard-left-contents:hover{
+    color:grey;
+    font-size: 25pt;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.table-ui-outer{
+    height: auto;
+    width: 100%;
+}
+.table-ui-row{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:black;
+}
+.table-ui-row:hover{
+    background-color: rgb(182, 182, 182);
+}
+.table-ui-row-head{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.table-ui-column{
+    flex:1;
+    /* background-color: rgb(219, 219, 219); */
+    height: auto;
+    padding: 1vh;
+    margin: 1vh;
+    box-sizing: border-box;
+    font-size: 15pt;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
