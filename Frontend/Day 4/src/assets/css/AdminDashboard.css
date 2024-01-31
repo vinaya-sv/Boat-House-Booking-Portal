@@ -1,0 +1,42 @@
+.admin-dashboard-outer{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+}
+.admin-dashboard-main{
+    height: 88vh;
+    width: 80%;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+}
+.admin-dashboard-sidebar{
+    height: 88vh;
+    width: 20%;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+}
+.admin-dashboard-sidebar-content{
+    height: 6vh;
+    width: 94%;
+    background-color: rgb(181, 181, 181);
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    padding-left: 5%;
+    color: white;
+    font-size: 15pt;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(78, 78, 78);
+}
+.admin-dashboard-sidebar-content:hover{
+    background-color: rgb(158, 158, 158);
+    cursor: pointer;
+}

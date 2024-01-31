@@ -1,0 +1,16 @@
+.your-profile-outer{
+    height: 80vh;
+    width: 100%;
+    padding: 5vh;
+    box-sizing: border-box;
+}
+.your-profile-label{
+    margin:0;
+    font-size: 20pt;
+    /* letter-spacing: 2px; */
+}
+
+.your-profile-data{
+    font-size: 15pt;
+    margin-bottom: 4vh;
+}

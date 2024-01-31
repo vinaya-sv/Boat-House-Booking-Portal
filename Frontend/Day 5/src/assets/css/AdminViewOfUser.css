@@ -1,0 +1,74 @@
+.admin-user-view-outer{
+    height: 88vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.admin-user-view-personal-profile{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vh;
+}
+.admin-user-view-personal-profile-picture{
+    height: 40vh;
+    width: 40vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 5%;
+    background-image: url(``);
+}
+.admin-user-view-personal-profile-info{
+    height: 40vh;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 4vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.admin-user-view-table{
+    height: 30vh;
+    width: 100%;
+    font-size: 15pt;
+}
+.admin-user-view-td:nth-child(odd){
+    /* background-color: green; */
+    width: 40%;
+}
+.admin-user-view-td:nth-child(even){
+    /* background-color: green; */
+    width: 60%;
+}
+.admin-user-view-tr{
+    width: 50%;
+}
+.admin-user-view-all-bookings{
+    width: 94%;
+    min-height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin: 3%;
+    border-radius: 10px;
+    padding: 3vh;
+    box-sizing: border-box;
+}
+.admin-user-view-booking{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+.admin-user-view-booking:nth-child(1){
+    background-color: rgb(225, 225, 225);
+    font-weight: bolder;
+}
+.admin-user-view-booking-contents{
+    font-size: 15pt;
+}

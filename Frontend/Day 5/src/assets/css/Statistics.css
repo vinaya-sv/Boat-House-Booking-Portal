@@ -1,0 +1,51 @@
+.admin-dashboard-boat-info{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.admin-dashboard-boat-count-wrapper{
+    height: 30vh;
+    width: 90%;
+    margin-top: 2%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-dashboard-boat-count{
+    width: 30%;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2vh;
+    box-sizing: border-box;
+}
+.admin-dashboard-boat-count-value{
+    width: 50%;
+    /* background-color: white; */
+    color: rgb(47, 47, 47);
+    font-size: 90pt;
+}
+.admin-dashboard-boat-count-desc{
+    width: 50%;
+    font-size: 20pt;
+    color: rgb(59, 59, 59);
+    /* background-color: yellow; */
+}
+.admin-dashboard-boat-statistics-chart{
+    margin-top: 2%;
+    height: 60vh;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}

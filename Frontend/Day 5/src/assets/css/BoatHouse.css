@@ -1,0 +1,55 @@
+.boat-house-outer{
+    height: 88vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boat-house-left{
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.boat-house-right{
+    height: 80vh;
+    padding: 3vh;
+    box-sizing: border-box;
+    width: 60%;
+    overflow-y: scroll;
+}
+.boat-house-page-image-container{
+    height: 65vh;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://i.pinimg.com/564x/7f/87/9b/7f879b0a7790bf62d57bb9a4999d0bbd.jpg');
+    background-size: cover;
+    background-position: 0% 60%;
+}
+.add-wishlist-button{
+    height: 5vh;
+    width: 80%;
+    background-color: green;
+    color:rgb(0, 55, 0);
+    border-radius: 10px;
+    font-size: 15pt;
+    border: 0;
+}
+.book-now-button{
+    height: 5vh;
+    width: 80%;
+    background-color: green;
+    color: rgb(0, 55, 0);
+    border-radius: 10px;
+    font-size: 15pt;
+    border: 0;
+}
+.add-wishlist-button:hover, .book-now-button:hover{
+    cursor: pointer;
+}
+.boat-house-desc{
+    text-align: justify;
+}

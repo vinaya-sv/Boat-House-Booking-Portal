@@ -1,0 +1,41 @@
+.boathouse-card-outer{
+    height: 40vh;
+    width: 18vw;
+    background-color: rgb(228, 228, 228);
+    /* margin: 2vh; */
+    margin: 1.5vh;
+    cursor: pointer;
+    margin-bottom: 2vh;
+}
+.boathouse-card-image-container{
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(181, 181, 181);
+    background-image: url('../images/aboutusbg1.jpg');
+    background-size: cover;
+    background-position: 0% 70%;
+}
+.boathouse-card-detail-container{
+    padding: 1vh;
+}
+.boathouse-card-name{
+    margin: 0;
+}
+.rating-container{
+    height: 3vh;
+    width: 100%;
+    color: orange;
+}
+.boathouse-card-location{
+    margin: 0;
+}
+.boathouse-card-price{
+    margin: 0;
+    text-align: right;
+    font-size: 15pt;
+}
+.boat-house-card-heart-outlined{
+    position: relative;
+    float: right;
+    margin: 2vh;
+}
