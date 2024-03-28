@@ -1,0 +1,19 @@
+.your-stays-card{
+    width: 90%;
+    height: 10vh;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3vh;
+    font-size: 15pt;
+    cursor: pointer;
+    border-radius: 20px;
+    align-items: center;
+}
+.your-stays-card:hover{
+    background-color: rgb(198, 198, 198);
+}

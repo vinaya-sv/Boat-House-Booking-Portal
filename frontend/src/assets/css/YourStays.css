@@ -1,0 +1,33 @@
+.your-stays-outer{
+    height: 80vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.your-stays-header{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3vh;
+    font-size: 15pt;
+    cursor: pointer;
+    border-radius: 20px;
+    align-items: center;
+}
+.my-stays-boat-image{
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+}
+.order-cancel-button{
+    background-color: rgb(195, 53, 53);
+    width: 100%;
+    height: 5vh;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
